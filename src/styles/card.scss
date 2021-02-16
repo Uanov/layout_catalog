@@ -43,16 +43,16 @@
 
   &__feedback {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    justify-items: end;
+    grid-template-columns: fit-content(50%) fit-content(50%);
+    align-items: end;
     margin-bottom: 20px;
   }
 
   &__price {
     display: grid;
-    grid-template-columns: 1fr 80px;
     justify-content: space-between;
+    grid-template-columns: fit-content(50%) fit-content(50%);
     align-items: end;
     margin-bottom: 20px;
   }
