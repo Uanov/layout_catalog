@@ -12,10 +12,10 @@
     height: 164px;
     border: 3px solid transparent;
     border-radius: 3px;
-    transition: $transition;
+    transition: border-color $transition, transform $transition;
 
     &:hover {
-      border: 3px solid $border-color;
+      border-color: $border-color;
       transform: scale(1.2);
     }
   }
